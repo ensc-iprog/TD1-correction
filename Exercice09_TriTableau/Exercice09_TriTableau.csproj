@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{02362D38-A603-4B90-BC13-BB1AF30D07E8}</ProjectGuid>
+    <ProjectGuid>{BAF889CA-32AE-4B95-810C-B1043DF7D027}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exercice08_Racines</RootNamespace>
-    <AssemblyName>Exercice08_Racines</AssemblyName>
+    <RootNamespace>Exercice09_TriTableau</RootNamespace>
+    <AssemblyName>Exercice09_TriTableau</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

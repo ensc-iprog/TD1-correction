@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice06_PH", "Exercice06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice07_DateLendemain", "Exercice07_DateLendemain\Exercice07_DateLendemain.csproj", "{E34B992B-0861-4D9E-B9D3-7BB6DD959038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice08_Racines", "Exercice08_Racines\Exercice08_Racines.csproj", "{02362D38-A603-4B90-BC13-BB1AF30D07E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice09_TriTableau", "Exercice09_TriTableau\Exercice09_TriTableau.csproj", "{BAF889CA-32AE-4B95-810C-B1043DF7D027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,6 +47,14 @@ Global
 		{E34B992B-0861-4D9E-B9D3-7BB6DD959038}.Debug|x86.Build.0 = Debug|x86
 		{E34B992B-0861-4D9E-B9D3-7BB6DD959038}.Release|x86.ActiveCfg = Release|x86
 		{E34B992B-0861-4D9E-B9D3-7BB6DD959038}.Release|x86.Build.0 = Release|x86
+		{02362D38-A603-4B90-BC13-BB1AF30D07E8}.Debug|x86.ActiveCfg = Debug|x86
+		{02362D38-A603-4B90-BC13-BB1AF30D07E8}.Debug|x86.Build.0 = Debug|x86
+		{02362D38-A603-4B90-BC13-BB1AF30D07E8}.Release|x86.ActiveCfg = Release|x86
+		{02362D38-A603-4B90-BC13-BB1AF30D07E8}.Release|x86.Build.0 = Release|x86
+		{BAF889CA-32AE-4B95-810C-B1043DF7D027}.Debug|x86.ActiveCfg = Debug|x86
+		{BAF889CA-32AE-4B95-810C-B1043DF7D027}.Debug|x86.Build.0 = Debug|x86
+		{BAF889CA-32AE-4B95-810C-B1043DF7D027}.Release|x86.ActiveCfg = Release|x86
+		{BAF889CA-32AE-4B95-810C-B1043DF7D027}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
