@@ -19,11 +19,14 @@ namespace Exercice06_PH
             else
             {
                 if (pH == 7)
-                { Console.WriteLine("pH neutre"); }
+                {
+                    Console.WriteLine("pH neutre");
+                }
                 else
-                { Console.WriteLine("pH basique"); }
+                {
+                    Console.WriteLine("pH basique");
+                }
             }
-            Console.ReadKey();
         }
     }
 }

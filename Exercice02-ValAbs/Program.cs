@@ -20,8 +20,6 @@ namespace Exercice02_ValAbs
             }
 
             Console.WriteLine("La valeur absolue de " + x + " est " + valAbs);
-
-            Console.ReadKey();
         }
     }
 }

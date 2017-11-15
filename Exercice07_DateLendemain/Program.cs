@@ -9,16 +9,16 @@ namespace Exercice07_DateLendemain
     {
         static void Main(string[] args)
         {
-            int jour, mois, annee;
-            int jourS = 0, moisS = 0, anneeS = 0;
-
+            // On suppose que la date saisie est toujours correcte
             Console.WriteLine("jour mois et annee ?");
-            jour = int.Parse(Console.ReadLine());
-            mois = int.Parse(Console.ReadLine());
-            annee = int.Parse(Console.ReadLine());
+            int jour = int.Parse(Console.ReadLine());
+            int mois = int.Parse(Console.ReadLine());
+            int annee = int.Parse(Console.ReadLine());
 
-            anneeS = annee;
-            if (((mois % 2 == 0) && (mois < 7)) || ((mois % 2 == 1) && (mois > 8)))   // mois pairs
+            // Cas par défaut
+            int jourS = jour + 1, moisS = mois, anneeS = annee;
+
+            if (((mois % 2 == 0) && (mois < 7)) || ((mois % 2 == 1) && (mois > 8)))   // mois à 28, 29 ou 30 jours
             {
                 if (jour == 30)
                 {
@@ -28,7 +28,8 @@ namespace Exercice07_DateLendemain
                 else
                 {
                     if (mois == 2) // mois de février
-                    {	// annee bissextile
+                    {
+                        // année bissextile
                         if ((annee % 400 == 0) || ((annee % 4 == 0) && (annee % 100 != 0)))
                         {
                             if (jour == 29)
@@ -36,47 +37,31 @@ namespace Exercice07_DateLendemain
                                 jourS = 1;
                                 moisS = mois + 1;
                             }
-                            else // annee non bissextile
-                            {
-                                if (jour == 28)
-                                {
-                                    jourS = 1;
-                                    moisS = mois + 1;
-                                }
-                            }
                         }
-                        else
+                        else if (jour == 28)
                         {
-                            jourS = jour + 1;
-                            moisS = mois;
+                            jourS = 1;
+                            moisS = mois + 1;
                         }
                     }
                 }
             }
-            else    // mois impairs : à 31 jours
+            else // mois à 31 jours
             {
                 if (jour == 31)
                 {
                     jourS = 1;
                     moisS = mois + 1;
-                }
-                else
-                {
-                    jourS = jour + 1;
-                    moisS = mois;
-                }
 
-                if (moisS == 13)
-                {
-                    moisS = 1;
-                    anneeS = annee + 1;
+                    // Cas du 31/12 : passage à l'année suivante
+					if (moisS == 13)
+					{
+						moisS = 1;
+						anneeS = annee + 1;
+					}
                 }
-                else
-                { anneeS = annee; }
             }
-            Console.WriteLine("jour suivant : {0}/{1}/{2}", jourS, moisS, anneeS);
-
-            Console.ReadKey(); 
+            Console.WriteLine("Jour suivant : {0}/{1}/{2}", jourS, moisS, anneeS);
         }
     }
 }

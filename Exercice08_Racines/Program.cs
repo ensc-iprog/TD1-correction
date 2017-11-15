@@ -41,8 +41,7 @@ namespace Exercice08_Racines
             }
             else
                 Console.WriteLine("Delta négatif");
-            
-            Console.ReadKey();
+
         }
     }
 }
