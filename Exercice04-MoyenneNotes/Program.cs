@@ -19,7 +19,7 @@ namespace Exercice04_MoyenneNotes
             double ponde3 = double.Parse(Console.ReadLine());
 
             double moyenne = (note1 * ponde1 + note2 * ponde2 + note3 * ponde3) / (ponde1 + ponde2 + ponde3);
-            Console.WriteLine("La moyenne est de {0}", moyenne); ;
+            Console.WriteLine("La moyenne est de {0}", moyenne);
             if (moyenne >= 10)
             {
                 Console.WriteLine("L'élève passe ");
