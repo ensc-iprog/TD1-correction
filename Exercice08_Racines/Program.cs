@@ -19,7 +19,7 @@ namespace Exercice08_Racines
             int n;
             double x1, x2;
 
-            double delta = b*b - 4*a*c;
+            double delta = Math.Pow(b, 2) - 4*a*c;
             if (delta >= 0)
             {
                 if (delta == 0)

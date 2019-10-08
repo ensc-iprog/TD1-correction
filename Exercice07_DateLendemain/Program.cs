@@ -54,11 +54,11 @@ namespace Exercice07_DateLendemain
                     moisS = mois + 1;
 
                     // Cas du 31/12 : passage à l'année suivante
-					if (moisS == 13)
-					{
-						moisS = 1;
-						anneeS = annee + 1;
-					}
+                    if (moisS == 13)
+                    {
+                        moisS = 1;
+                        anneeS = annee + 1;
+                    }
                 }
             }
             Console.WriteLine("Jour suivant : {0}/{1}/{2}", jourS, moisS, anneeS);

@@ -21,6 +21,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice10_Categories", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice11_Remises", "Exercice11_Remises\Exercice11_Remises.csproj", "{0C82E985-887E-4057-97BC-727F9ABC5D77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice12a_Inverse", "Exercice12a_Inverse\Exercice12a_Inverse.csproj", "{55ED2780-41AB-4F23-A4E9-4398DC836338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice12b_PointCercle", "Exercice12b_PointCercle\Exercice12b_PointCercle.csproj", "{A7E0B1A6-3A9D-409B-B8C4-805E7EDF19E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice12c_Colinearite", "Exercice12c_Colinearite\Exercice12c_Colinearite.csproj", "{0ADC7EAE-7A92-4D56-B9E7-CA7DA360A59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice12d_Binaire", "Exercice12d_Binaire\Exercice12d_Binaire.csproj", "{0E5EDB6D-E167-4AB6-AD73-059958623A43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -67,6 +75,22 @@ Global
 		{0C82E985-887E-4057-97BC-727F9ABC5D77}.Debug|x86.Build.0 = Debug|x86
 		{0C82E985-887E-4057-97BC-727F9ABC5D77}.Release|x86.ActiveCfg = Release|x86
 		{0C82E985-887E-4057-97BC-727F9ABC5D77}.Release|x86.Build.0 = Release|x86
+		{55ED2780-41AB-4F23-A4E9-4398DC836338}.Debug|x86.ActiveCfg = Debug|x86
+		{55ED2780-41AB-4F23-A4E9-4398DC836338}.Debug|x86.Build.0 = Debug|x86
+		{55ED2780-41AB-4F23-A4E9-4398DC836338}.Release|x86.ActiveCfg = Release|x86
+		{55ED2780-41AB-4F23-A4E9-4398DC836338}.Release|x86.Build.0 = Release|x86
+		{A7E0B1A6-3A9D-409B-B8C4-805E7EDF19E0}.Debug|x86.ActiveCfg = Debug|x86
+		{A7E0B1A6-3A9D-409B-B8C4-805E7EDF19E0}.Debug|x86.Build.0 = Debug|x86
+		{A7E0B1A6-3A9D-409B-B8C4-805E7EDF19E0}.Release|x86.ActiveCfg = Release|x86
+		{A7E0B1A6-3A9D-409B-B8C4-805E7EDF19E0}.Release|x86.Build.0 = Release|x86
+		{0ADC7EAE-7A92-4D56-B9E7-CA7DA360A59B}.Debug|x86.ActiveCfg = Debug|x86
+		{0ADC7EAE-7A92-4D56-B9E7-CA7DA360A59B}.Debug|x86.Build.0 = Debug|x86
+		{0ADC7EAE-7A92-4D56-B9E7-CA7DA360A59B}.Release|x86.ActiveCfg = Release|x86
+		{0ADC7EAE-7A92-4D56-B9E7-CA7DA360A59B}.Release|x86.Build.0 = Release|x86
+		{0E5EDB6D-E167-4AB6-AD73-059958623A43}.Debug|x86.ActiveCfg = Debug|x86
+		{0E5EDB6D-E167-4AB6-AD73-059958623A43}.Debug|x86.Build.0 = Debug|x86
+		{0E5EDB6D-E167-4AB6-AD73-059958623A43}.Release|x86.ActiveCfg = Release|x86
+		{0E5EDB6D-E167-4AB6-AD73-059958623A43}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
