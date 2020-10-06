@@ -10,7 +10,7 @@ namespace Exercice03_SalaireNet
         static void Main(string[] args)
         {
             double salBase = 2600;
-            double primeTechnicité = 55;
+            double primeTechnicite = 55;
             double primeTransport = 70;
             int nbJours = 24;
             int nbEnfants = 3;
@@ -26,7 +26,7 @@ namespace Exercice03_SalaireNet
 
             // 26d : force un résultat réel et non entier
             double txTravail = nbJours / 26d;
-            double salBrut = (salBase + primeTechnicité + primeTransport + primeEnfants) * txTravail;
+            double salBrut = (salBase + primeTechnicite + primeTransport + primeEnfants) * txTravail;
             double valCNSS = txCNSS * salBrut;
             double valImpot = txImpot * salBrut;
             double salNet = salBrut - valImpot - valCNSS;

@@ -19,7 +19,8 @@ namespace Exercice02_ValAbs
                 valAbs = -x;
             }
 
-            Console.WriteLine("La valeur absolue de " + x + " est " + valAbs);
+            //Console.WriteLine("La valeur absolue de " + x + " est " + valAbs);
+            Console.WriteLine("La valeur absolue de {0} est {1}", x, valAbs);
         }
     }
 }
